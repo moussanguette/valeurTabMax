@@ -7,11 +7,10 @@ int main(){
     int i,indice;
     for ( i = 0; i < 4; i++)
     {
-        remplirTableau(i);
+        remplirTableau(i);//appel de la fonction remplirTableau
     }
-    afficherTableau();
+    afficherTableau();//appel de la fonction afficherTableau
     printf("la valeur max est %f a la position %d\n ",determinerMaximun(),indiceMaximun());
-    //printf("la valeur max est %d\n ",indiceMaximun());
     
 
 }

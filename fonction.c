@@ -1,6 +1,6 @@
 #include<stdio.h>
     
-static float tab[3];
+float tab[3];
 void remplirTableau(int i){
     printf("donner la valeur N°%d\n",i+1);
     scanf("%f",&tab[i]);
